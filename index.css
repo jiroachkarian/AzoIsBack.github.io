@@ -1,0 +1,36 @@
+/*mobile first*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url('img/cool-background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  img{
+    max-width: 150px;
+  }
+  
+  .carousel-width{
+    max-width: 150px;
+  }
+  
+  .carousel-control-next,
+  .carousel-control-prev {
+    visibility: hidden;
+  }
+}
+
+/*desktop screens*/
+body {
+    background-image: url('img/cool-background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+  img{
+    max-width: 300px;
+  }
+
+ 
